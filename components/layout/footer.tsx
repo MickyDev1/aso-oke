@@ -81,7 +81,7 @@ export default function Footer() {
                   href="/shop?category=women"
                   className="hover:text-white transition-colors"
                 >
-                  Women's Fashion
+                  WWome
                 </Link>
               </li>
               <li>

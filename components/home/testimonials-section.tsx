@@ -30,6 +30,15 @@ const testimonials = [
       "Love the variety of designs! StyleHub has become my go-to for traditional and modern African fashion. Highly recommended!",
     image: "/images/WhatsApp Image 2025-07-04 at 11.08.43_5fe8bde9.jpg",
   },
+  // {
+  //   id: 4,
+  //   name: "Micky Dev",
+  //   location: "Ogun State, Nigeria",
+  //   rating: 4,
+  //   comment:
+  //     "Love the variety of designs! StyleHub has become my go-to for traditional and modern African fashion. Highly recommended!",
+  //   image: "/images/WhatsApp Image 2025-07-04 at 11.08.43_5fe8bde9.jpg",
+  // },
 ];
 
 export default function TestimonialsSection() {
