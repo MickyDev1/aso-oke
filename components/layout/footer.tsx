@@ -7,8 +7,6 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 
 export default function Footer() {
@@ -23,28 +21,35 @@ export default function Footer() {
               Your premier destination for authentic Nigerian fashion, Aso-Oke,
               and premium accessories.
             </p>
+
+            {/* Social Icons */}
             <div className="flex space-x-4">
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-white hover:text-gray-300"
+              <a
+                href="https://www.linkedin.com/in/michael-oladele1/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-blue-500 transition-colors"
               >
                 <Facebook className="h-5 w-5" />
-              </Button>
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-white hover:text-blue-700"
+              </a>
+
+              <a
+                href="https://www.instagram.com/yourhandle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-pink-500 transition-colors"
               >
                 <Instagram className="h-5 w-5" />
-              </Button>
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-white hover:text-gray-300"
+              </a>
+
+              <a
+                href="https://twitter.com/yourhandle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-sky-400 transition-colors"
               >
                 <Twitter className="h-5 w-5" />
-              </Button>
+              </a>
             </div>
           </div>
 
@@ -81,7 +86,7 @@ export default function Footer() {
                   href="/shop?category=women"
                   className="hover:text-white transition-colors"
                 >
-                  WWome
+                  Women's Fashion
                 </Link>
               </li>
               <li>
@@ -92,14 +97,6 @@ export default function Footer() {
                   Shoes
                 </Link>
               </li>
-              {/* <li>
-                <Link
-                  href="/about"
-                  className="hover:text-white transition-colors"
-                >
-                  About Us
-                </Link>
-              </li> */}
             </ul>
           </div>
 
@@ -123,30 +120,6 @@ export default function Footer() {
                   Shipping Info
                 </Link>
               </li>
-              {/* <li>
-                <Link
-                  href="/returns"
-                  className="hover:text-white transition-colors"
-                >
-                  Returns
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/size-guide"
-                  className="hover:text-white transition-colors"
-                >
-                  Size Guide
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/faq"
-                  className="hover:text-white transition-colors"
-                >
-                  FAQ
-                </Link>
-              </li> */}
               <li>
                 <Link
                   href="/track-order"
@@ -178,27 +151,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* <Separator className="my-8 bg-gray-700" /> */}
-
-        {/* Newsletter */}
-        {/* <div className="text-center mb-8">
-          <h4 className="font-semibold mb-2">Subscribe to Our Newsletter</h4>
-          <p className="text-gray-300 mb-4">
-            Get the latest updates on new arrivals and exclusive offers
-          </p>
-          <div className="flex max-w-md mx-auto">
-            <Input
-              type="email"
-              placeholder="Enter your email"
-              className="bg-gray-800 border-gray-700 text-white"
-            />
-            <Button className="ml-2">Subscribe</Button>
-          </div>
-        </div> */}
-
         <Separator className="my-8 bg-gray-700" />
 
-        {/* Bottom */}
+        {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
           <p>&copy; 2025 God's Grace Aso-Oke. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
@@ -211,12 +166,6 @@ export default function Footer() {
             <Link href="/terms" className="hover:text-white transition-colors">
               Terms of Service
             </Link>
-            {/* <Link
-              href="/cookies"
-              className="hover:text-white transition-colors"
-            >
-              Cookie Policy
-            </Link> */}
           </div>
         </div>
       </div>

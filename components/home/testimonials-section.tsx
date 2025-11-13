@@ -5,7 +5,7 @@ import Image from "next/image";
 const testimonials = [
   {
     id: 1,
-    name: "Micky Dev",
+    name: "Oladele Michael",
     location: "Lagos, Nigeria",
     rating: 3,
     comment:
@@ -23,9 +23,9 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Micky Dev",
+    name: "Michael Oladele",
     location: "Ogun State, Nigeria",
-    rating: 5,
+    rating: 3.5,
     comment:
       "Love the variety of designs! StyleHub has become my go-to for traditional and modern African fashion. Highly recommended!",
     image: "/images/WhatsApp Image 2025-07-04 at 11.08.43_5fe8bde9.jpg",
